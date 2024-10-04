@@ -1,8 +1,10 @@
+import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Counter from './Counter.jsx'
-import UseCard from './UseCard.jsx'
 import './index.css'
+import BgPage from './BgPage.jsx'
 
 createRoot(document.getElementById('root')).render(
-    <Counter />
+  <StrictMode>
+    <BgPage />
+  </StrictMode>,
 )

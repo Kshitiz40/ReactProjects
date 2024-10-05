@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function App() {
+function Counter() {
 
   const [counter, setCounter] = useState(0);
 
@@ -26,4 +26,4 @@ function App() {
   )
 }
 
-export default App
+export default Counter
